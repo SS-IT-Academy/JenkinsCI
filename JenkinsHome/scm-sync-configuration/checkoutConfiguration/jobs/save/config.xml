@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>ls -al /app 2&gt; /dev/null
+cd /app
+ls -al /app/JenkinsHome 2&gt; /dev/null
+rm -r .git 2&gt; /dev/null
+#rm -r /app/JenkinsHome/.git 2&gt; /dev/null
+git init
+git config user.email &quot;lv105ro@gmail.com&quot;
+git config user.name &quot;lv105ro&quot;
+git remote add origin https://lv105ro:git123qwASD@github.com/SS-IT-Academy/JenkinsCI.git
+git status
+printf &quot;/JenkinsHome/jobs/save/builds/*/log&quot; &gt; .gitignore
+git add .
+git commit -m &quot;Sync ci repository&quot;
+git status
+git pull origin master
+git push origin master</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
