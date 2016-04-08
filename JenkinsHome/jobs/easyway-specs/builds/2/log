@@ -1,0 +1,20 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /app/JenkinsHome/workspace/easyway-specs
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SS-IT-Academy/EasyWay.git # timeout=10
+Fetching upstream changes from https://github.com/SS-IT-Academy/EasyWay.git
+ > git --version # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://github.com/SS-IT-Academy/EasyWay.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision adb76fa169ec4a3a829aa76d52fbcbcdb23d77c2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f adb76fa169ec4a3a829aa76d52fbcbcdb23d77c2
+First time build. Skipping changelog.
+[easyway-specs] $ /bin/sh -xe /tmp/hudson6864054361057308343.sh
++ cd /app/JenkinsHome/workspace/easyway-specs
++ bundle
+/tmp/hudson6864054361057308343.sh: 3: /tmp/hudson6864054361057308343.sh: bundle: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

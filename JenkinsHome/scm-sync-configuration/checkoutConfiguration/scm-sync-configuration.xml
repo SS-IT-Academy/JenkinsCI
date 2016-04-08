@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin version="1">
+  <scm class="hudson.plugins.scm_sync_configuration.scms.ScmSyncGitSCM"/>
+<<<<<<< HEAD
+  <scmRepositoryUrl>scm:git:git@github.com/SS-IT-Academy/JenkinsCI.git</scmRepositoryUrl>
+=======
+  <scmRepositoryUrl>scm:git:git@github.com:SS-IT-Academy/JenkinsCI.git</scmRepositoryUrl>
+>>>>>>> 8035c6201a5d67eb39ba458f2f0224e6e3b274b4
+  <noUserCommitMessage>false</noUserCommitMessage>
+  <displayStatus>true</displayStatus>
+  <commitMessagePattern>[message]</commitMessagePattern>
+  <manualSynchronizationIncludes/>
+</hudson.plugins.scm__sync__configuration.ScmSyncConfigurationPlugin>

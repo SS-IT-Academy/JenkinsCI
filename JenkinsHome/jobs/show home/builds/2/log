@@ -1,0 +1,62 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /app/JenkinsHome/workspace/show home
+[show home] $ /bin/sh -xe /tmp/hudson5044857675910504928.sh
++ ls -al /app
+total 62232
+drwx------ 10 u6715 dyno     4096 Mar 28 14:44 .
+drwxr-xr-x 16 root  root     4096 Mar 17 04:02 ..
+drwxr-xr-x  3 u6715 dyno     4096 Mar 28 13:54 .cache
+drwx------  6 u6715 dyno     4096 Mar 28 13:54 .heroku
+drwx------  3 u6715 dyno     4096 Mar 28 13:54 .java
+drwx------  6 u6715 dyno     4096 Mar 28 13:54 .jdk
+drwx------  2 u6715 dyno     4096 Mar 28 13:54 .profile.d
+drwx------  2 u6715 dyno     4096 Mar 28 14:44 .ssh
+drwx------ 12 u6715 dyno     4096 Mar 28 16:15 JenkinsHome
+-rw-------  1 u6715 dyno      197 Mar 28 13:53 Procfile
+-rw-------  1 u6715 dyno       11 Mar 28 13:53 README.md
+-rw-------  1 u6715 dyno 63669423 Mar 28 13:53 jenkins.war
+-rw-------  1 u6715 dyno      526 Mar 28 13:53 pom.xml
+drwx------  3 u6715 dyno     4096 Mar 28 13:54 target
++ ls -al /app/JenkinsHome/
+total 148
+drwx------ 12 u6715 dyno 4096 Mar 28 16:15 .
+drwx------ 10 u6715 dyno 4096 Mar 28 14:44 ..
+drwx------  8 u6715 dyno 4096 Mar 28 16:15 .git
+-rw-------  1 u6715 dyno    0 Mar 28 13:53 .gitkeep
+-rw-------  1 u6715 dyno   67 Mar 28 15:19 .owner
+-rw-------  1 u6715 dyno    0 Mar 28 13:55 Download metadata.log
+-rw-------  1 u6715 dyno 1276 Mar 28 14:52 config.xml
+-rw-------  1 u6715 dyno 2635 Mar 28 14:43 credentials.xml
+-rw-------  1 u6715 dyno  135 Mar 28 14:52 github-plugin-configuration.xml
+-rw-------  1 u6715 dyno  809 Mar 28 14:52 hudson.maven.MavenModuleSet.xml
+-rw-------  1 u6715 dyno  159 Mar 28 13:54 hudson.model.UpdateCenter.xml
+-rw-------  1 u6715 dyno  344 Mar 28 14:52 hudson.plugins.git.GitSCM.xml
+-rw-------  1 u6715 dyno  371 Mar 28 14:52 hudson.plugins.git.GitTool.xml
+-rw-------  1 u6715 dyno  455 Mar 28 14:52 hudson.scm.CVSSCM.xml
+-rw-------  1 u6715 dyno  350 Mar 28 14:52 hudson.scm.SubversionSCM.xml
+-rw-------  1 u6715 dyno  145 Mar 28 14:52 hudson.tasks.Ant.xml
+-rw-------  1 u6715 dyno  188 Mar 28 14:52 hudson.tasks.Mailer.xml
+-rw-------  1 u6715 dyno  132 Mar 28 14:52 hudson.tasks.Maven.xml
+-rw-------  1 u6715 dyno   76 Mar 28 14:52 hudson.tasks.Shell.xml
+-rw-------  1 u6715 dyno  215 Mar 28 14:52 hudson.triggers.SCMTrigger.xml
+-rw-------  1 u6715 dyno 1680 Mar 28 13:55 identity.key.enc
+-rw-------  1 u6715 dyno  159 Mar 28 14:52 jenkins.model.ArtifactManagerConfiguration.xml
+-rw-------  1 u6715 dyno  271 Mar 28 14:52 jenkins.model.JenkinsLocationConfiguration.xml
+-rw-------  1 u6715 dyno  247 Mar 28 14:52 jenkins.mvn.GlobalMavenConfig.xml
+drwx------  4 u6715 dyno 4096 Mar 28 14:09 jobs
+-rw-------  1 u6715 dyno  907 Mar 28 13:55 nodeMonitors.xml
+drwx------  2 u6715 dyno 4096 Mar 28 13:54 nodes
+-rw-------  1 u6715 dyno  244 Mar 28 14:52 org.jenkinsci.plugins.gitclient.JGitTool.xml
+drwx------ 31 u6715 dyno 4096 Mar 28 14:05 plugins
+drwx------  3 u6715 dyno 4096 Mar 28 14:52 scm-sync-configuration
+-rw-------  1 u6715 dyno   82 Mar 28 16:15 scm-sync-configuration.fail.log
+-rw-------  1 u6715 dyno   28 Mar 28 15:32 scm-sync-configuration.success.log
+-rw-------  1 u6715 dyno  534 Mar 28 14:52 scm-sync-configuration.xml
+-rw-------  1 u6715 dyno   64 Mar 28 13:54 secret.key
+-rw-------  1 u6715 dyno    0 Mar 28 13:54 secret.key.not-so-secret
+drwx------  4 u6715 dyno 4096 Mar 28 14:58 secrets
+drwx------  2 u6715 dyno 4096 Mar 28 13:55 updates
+drwx------  2 u6715 dyno 4096 Mar 28 13:55 userContent
+drwx------  9 u6715 dyno 4096 Mar 28 13:54 war
+drwx------  4 u6715 dyno 4096 Mar 28 16:13 workspace
+Finished: SUCCESS
