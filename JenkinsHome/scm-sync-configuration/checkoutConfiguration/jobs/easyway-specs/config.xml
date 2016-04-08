@@ -30,12 +30,12 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd $WORKSPACE
-gem install bundler
-bundle
 # set env vars
 export GEM_PATH=$WORKSPACE/vendor
 export CI_REPORTS=results
 export RAILS_ENV=test
+gem install bundler
+bundle
 
 rake spec
 # Prepare for rcov
