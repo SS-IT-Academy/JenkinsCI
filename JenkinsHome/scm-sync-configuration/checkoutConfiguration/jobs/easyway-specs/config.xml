@@ -30,6 +30,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd $WORKSPACE
+gem install bundler
 bundle
 # set env vars
   #export GEM_PATH=/usr/local/lib/ruby/gems/1.8/gems
