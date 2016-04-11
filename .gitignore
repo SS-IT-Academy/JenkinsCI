@@ -1,0 +1,6 @@
+/JenkinsHome/jobs/save/builds/*/log
+/.jdk
+/.java
+/.heroku
+/.profile.d
+/.cache
